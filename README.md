@@ -43,7 +43,7 @@ sudo ufw allow 22
 Check allow port status
 
 ```
-sudo ufw allow status
+sudo ufw status
 ```
 
 sudo ufw status
@@ -79,7 +79,7 @@ ls -al ~/.ssh
 ```
 
 ```
-ssh-keygen -t rsa -b 4096 -C "smt.team.pixel@gmail.com"
+ssh-keygen -t rsa -b 4096 -C "smtsigma@gmail.com"
 ```
 
 ```
